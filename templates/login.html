@@ -28,14 +28,14 @@
                 </div>
 
                 <form class="login100-form validate-form">
-                    
+
                     {% if custom_html %} {{ custom_html | safe }} {% elif login_service %}
 
                     <div class="logon100-form-info">
                         <p>
                             Welcome to the
                             <span class="italic">
-                                University of Exeter Grand Challenges Platform,
+                                University of Exeter Grand Challenges 2020 Platform,
                             </span>
                             a data analysis platform for use the Grand Challenges.</p>
                         <p>This service is an instance of <a href="https://pangeo-data.github.io" target="_new">Pangeo</a>.</p>
@@ -44,7 +44,7 @@
                                 For assistance and to request a login, please contact
                             </span><br />
                             <a href="mailto:grandchallenge@informaticslab.co.uk">grandchallenge@informaticslab.co.uk</a>.
-                        </p> 
+                        </p>
                         <p>
                             Met Office data provided on this platform must be attributed to the Met Office as the source
                             of the data by including the following attribution statement in any resulting products, publications or applications:<br />
@@ -61,7 +61,7 @@
                     </div>
 
                     {% else %}
-                    
+
                     <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
                         <input id="username_input" type="text" autocapitalize="off" autocorrect="off" class="input100" name="username" val="{{username}}" tabindex="1" autofocus="autofocus" placeholder="Email" />
                         <span class="focus-input100"></span>
@@ -88,7 +88,7 @@
                 <span class="login100-form-title">
                     <img src="{{ static_url("custom/images/mo-black.svg") }}" id="MO-logo" alt="Met Office Logo">
                     <img src="{{ static_url("custom/images/Microsoft_Azure_Logo.png") }}" id="azure-logo" alt="Microsoft Azure Logo">
-                    <img src="{{ static_url("custom/images/uoe.png") }}" id="impact-lab-logo" alt="University of Exeter Logo">
+                    <img src="{{ static_url("custom/images/EILogo.png") }}" id="impact-lab-logo" alt="University of Exeter Logo">
                 </span>
             </div>
         </div>
